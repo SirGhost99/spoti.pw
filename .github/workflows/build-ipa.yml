@@ -3,7 +3,7 @@ name: Build IPA from your own Spotify IPA
 on:
   workflow_dispatch:
     inputs:
-      ipa_url: https://drive.usercontent.google.com/download?id=1AWvq-H7wg3z_WsX6aVZ_UERDLX6r3Vm_&export=download&authuser=0
+      ipa_url:https://drive.usercontent.google.com/download?id=1AWvq-H7wg3z_WsX6aVZ_UERDLX6r3Vm_&export=download&authuser=0
         description: "Direct link to a decrypted Spotify IPA"
         required: true
         type: string
